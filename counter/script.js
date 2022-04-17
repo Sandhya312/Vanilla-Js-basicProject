@@ -1,12 +1,12 @@
 let value = document.getElementById("value");
 let count = 0;
 let btns = document.querySelectorAll("button");
-console.log(btns);
+// console.log(btns);
 
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     let status = e.currentTarget.classList;
-    console.log(status);
+    // console.log(status);
     if (status.contains("decrease")) {
       count--;
       document.body.style.backgroundColor = "beige";

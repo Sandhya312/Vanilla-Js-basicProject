@@ -8,7 +8,7 @@ function ChangeBackg(){
     for(let i = 0; i<6;i++){
         hexa += hex[getRandomNum()];
     }
-    console.log(hexa);
+    // console.log(hexa);
     span.innerHTML = hexa;
     document.body.style.backgroundColor=hexa;
 }

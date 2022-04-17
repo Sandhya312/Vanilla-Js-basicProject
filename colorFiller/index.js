@@ -6,7 +6,7 @@ function backColor(){
     let span = document.querySelector('span');
     let randomNum = getRandomNum();
     span.innerText = color[randomNum];
-    console.log(randomNum);
+    // console.log(randomNum);
     document.body.style.backgroundColor=color[randomNum];;
 }
 
