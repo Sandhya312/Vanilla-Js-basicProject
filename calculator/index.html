@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Calculator</title>
+    <link rel="icon" type="image/x-icon" href="src/icons/calc-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/dark.css" id="theme" />
+    <!-- <link rel="stylesheet" href="styles/light.css" /> -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Supermercado+One" />
+</head>
+
+<body>
+    <header>
+        <div id="title-cont">
+            <h2>Calculator</h2>
+        </div>
+    </header>
+    <main>
+        <div id="main-cont">
+            <div id="calc-cont">
+                <div id="output">
+                    <h2 id="output-text">0</h2>
+                </div>
+                <div id="table-cont">
+                    <table>
+                        <tr>
+                            <td id="clear" class="btns" alt="clear">C</td>
+                            <td class="operator">÷</td>
+                            <td class="operator">-</td>
+                            <td id="backspace" alt="backspace" class="btns">
+                                <ion-icon id="backIcon" name="backspace-outline"></ion-icon>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="key">7</td>
+                            <td class="key">8</td>
+                            <td class="key">9</td>
+                            <td class="operator">×</td>
+                        </tr>
+                        <tr>
+                            <td class="key">4</td>
+                            <td class="key">5</td>
+                            <td class="key">6</td>
+                            <td class="operator">+</td>
+                        </tr>
+                        <tr>
+                            <td class="key">1</td>
+                            <td class="key">2</td>
+                            <td class="key">3</td>
+                            <td id="equals" rowspan="2">=</td>
+                        </tr>
+                        <tr>
+                            <td class="key">0</td>
+                            <td class="key">.</td>
+                
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <button onclick="changeTheme()" id="dark-mode">☀️</button>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
