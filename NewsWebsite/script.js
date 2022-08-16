@@ -26,7 +26,7 @@ fetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=b8b6f775d8014f778d
             let datakey = dataItem[key]
             // console.log(datakey)
             if(datakey.content !=null){
-                console.log(datakey)
+                // console.log(datakey)
                  content +=  `
             <div class="accordion-item">
             <h2 class="accordion-header" id="heading${key}">
