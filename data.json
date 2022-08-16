@@ -23,7 +23,18 @@
     "heading":"Reviews",
     "image":"./images/reviews.png",
     "link":"Reviews"
+},
+{
+    "heading":"Form-validation",
+    "image":"./images/Form-validation.png",
+    "link":"Form-validation"
+},
+{
+    "heading":"NewsWebsite",
+    "image":"./images/NewsWebsite.png",
+    "link":"NewsWebsite"
 }
+
 
 
 
