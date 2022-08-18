@@ -33,6 +33,11 @@
     "heading":"NewsWebsite",
     "image":"./images/NewsWebsite.png",
     "link":"NewsWebsite"
+},
+{
+    "heading":"sideBar",
+    "image":"./images/sideBar.png",
+    "link":"sideBar"
 }
 
 
